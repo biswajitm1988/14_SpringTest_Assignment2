@@ -1,0 +1,128 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building 14_SpringTest_Assignment2 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ 14_SpringTest_Assignment2 ---
+[INFO] Deleting C:\RCI\SourceCodeRepository\RnD\14_SpringTest_Assignment2\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ 14_SpringTest_Assignment2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ 14_SpringTest_Assignment2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to C:\RCI\SourceCodeRepository\RnD\14_SpringTest_Assignment2\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ 14_SpringTest_Assignment2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\RCI\SourceCodeRepository\RnD\14_SpringTest_Assignment2\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ 14_SpringTest_Assignment2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\RCI\SourceCodeRepository\RnD\14_SpringTest_Assignment2\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ 14_SpringTest_Assignment2 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.fsd.spring.BookDaoTest
+13:46:05.083 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.fsd.spring.BookDaoTest]
+13:46:05.083 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:46:05.115 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:46:05.161 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.fsd.spring.BookDaoTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:46:05.208 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.fsd.spring.BookDaoTest], using SpringBootContextLoader
+13:46:05.224 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.fsd.spring.BookDaoTest]: class path resource [com/fsd/spring/BookDaoTest-context.xml] does not exist
+13:46:05.224 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.fsd.spring.BookDaoTest]: class path resource [com/fsd/spring/BookDaoTestContext.groovy] does not exist
+13:46:05.224 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.fsd.spring.BookDaoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:46:05.224 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.fsd.spring.BookDaoTest]: BookDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:46:05.318 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.fsd.spring.BookDaoTest]
+13:46:05.443 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\RCI\SourceCodeRepository\RnD\14_SpringTest_Assignment2\target\classes\com\fsd\spring\BookSpringBootApplication.class]
+13:46:05.458 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.fsd.spring.BookSpringBootApplication for test class com.fsd.spring.BookDaoTest
+13:46:05.599 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.fsd.spring.BookDaoTest]: using defaults.
+13:46:05.599 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:46:05.630 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@bcec361, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@26794848, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@302552ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d285d7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40005471, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2cd76f31, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@367ffa75, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@49438269, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@ba2f4ec, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1c1bbc4e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55fe41ea, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@fbd1f6]
+13:46:05.630 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.fsd.spring.BookDaoTest]
+13:46:05.630 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.fsd.spring.BookDaoTest]
+13:46:05.630 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.fsd.spring.BookDaoTest]
+13:46:05.630 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.fsd.spring.BookDaoTest]
+13:46:05.630 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.fsd.spring.BookDaoTest]
+13:46:05.630 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.fsd.spring.BookDaoTest]
+13:46:05.646 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@131ef10 testClass = BookDaoTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@55b0dcab testClass = BookDaoTest, locations = '{}', classes = '{class com.fsd.spring.BookSpringBootApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@17baae6e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1d7acb34, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1188e820, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@12028586], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+13:46:05.646 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.fsd.spring.BookDaoTest]
+13:46:05.646 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.fsd.spring.BookDaoTest]
+13:46:05.677 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2019-09-27 13:46:06.396  INFO 10724 --- [           main] com.fsd.spring.BookDaoTest               : Starting BookDaoTest on L-PC0H09U2 with PID 10724 (started by ctrq181 in C:\RCI\SourceCodeRepository\RnD\14_SpringTest_Assignment2)
+2019-09-27 13:46:06.411  INFO 10724 --- [           main] com.fsd.spring.BookDaoTest               : No active profile set, falling back to default profiles: default
+2019-09-27 13:46:08.185  INFO 10724 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-27 13:46:08.313  INFO 10724 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 2 repository interfaces.
+2019-09-27 13:46:09.610  INFO 10724 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a61c1482] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-27 13:46:10.094  INFO 10724 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-27 13:46:10.250  INFO 10724 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-09-27 13:46:10.250  INFO 10724 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-27 13:46:10.625  INFO 10724 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-27 13:46:11.172  INFO 10724 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-27 13:46:11.322  INFO 10724 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-27 13:46:11.353  INFO 10724 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-27 13:46:12.912  INFO 10724 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-27 13:46:13.397  INFO 10724 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-27 13:46:15.619  INFO 10724 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-27 13:46:15.822  WARN 10724 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-27 13:46:16.900  INFO 10724 --- [           main] com.fsd.spring.BookDaoTest               : Started BookDaoTest in 11.207 seconds (JVM running for 13.26)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.208 s - in com.fsd.spring.BookDaoTest
+[INFO] Running com.fsd.spring.SubjectDaoTest
+2019-09-27 13:46:17.619  INFO 10724 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.fsd.spring.SubjectDaoTest], using SpringBootContextLoader
+2019-09-27 13:46:17.619  INFO 10724 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.fsd.spring.SubjectDaoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-09-27 13:46:17.619  INFO 10724 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.fsd.spring.SubjectDaoTest]: SubjectDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-09-27 13:46:17.619  INFO 10724 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.fsd.spring.BookSpringBootApplication for test class com.fsd.spring.SubjectDaoTest
+2019-09-27 13:46:17.619  INFO 10724 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-09-27 13:46:17.619  INFO 10724 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@553ce348, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7417ef4f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5c0e2ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4fa8bebb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7d3c22a5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@369ad7da, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@344f9467, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e98b933, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@222d9d4f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4269aad7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@a4df251, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71e7830a]
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.fsd.spring.SubjectDaoTest
+[ERROR] deleteSubjectTest(com.fsd.spring.SubjectDaoTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.fsd.spring.SubjectDaoTest.deleteSubjectTest(SubjectDaoTest.java:37)
+
+2019-09-27 13:46:18.010  INFO 10724 --- [       Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-27 13:46:18.010  INFO 10724 --- [       Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-27 13:46:18.041  INFO 10724 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-27 13:46:18.104  INFO 10724 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   SubjectDaoTest.deleteSubjectTest:37
+[INFO] 
+[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.229 s
+[INFO] Finished at: 2019-09-27T13:46:18-04:00
+[INFO] Final Memory: 34M/317M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test (default-test) on project 14_SpringTest_Assignment2: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\RCI\SourceCodeRepository\RnD\14_SpringTest_Assignment2\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
